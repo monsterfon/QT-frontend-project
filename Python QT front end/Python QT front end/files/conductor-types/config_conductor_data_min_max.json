@@ -1,0 +1,39 @@
+ {
+            "inner": {
+                "number_of_wires": {"min": "0", "max": "300"},
+                "diameter_of_wire": {"min": "0", "max": "5.05 mm"},
+                "diameter": {"min": "0", "max": "15.15 mm"},
+                "cross_section": {"min": "0", "max": "500 mm²"},
+                "specific_weight": {"min": "61.6 kg/km", "max": "13515 kg/km"},
+                "specific_heat": {"min": "200.0 J/kg·K", "max": "4485 J/kg·K"},
+                "specific_heat_coeff.": {"min": "0.000035 1/°C", "max": "0.00645 1/°C"},
+                "resistivity_coeff.": {"min": "0.00038 1/°C", "max": "0.01 1/°C"},
+                "specific_conductivity": {"min": "1 MS/m", "max": "74.0 MS/m"}
+            },
+            "outer": {
+                "number_of_wires": {"min": "0", "max": "300"},
+                "diameter_of_wire": {"min": "0", "max": "5.05 mm"},
+                "diameter": {"min": "0", "max": "99.00 mm"},
+                "cross_section": {"min": "0", "max": "3000 mm²"},
+                "specific_weight": {"min": "61.6 kg/km", "max": "5000.05 kg/km"},
+                "specific_heat": {"min": "850 J/kg·K", "max": "1425 J/kg·K"},
+                "specific_heat_coeff.": {"min": "0.00035 1/°C", "max": "0.00645 1/°C"},
+                "resistivity_coeff.": {"min": "0.00038 1/°C", "max": "0.063 1/°C"},
+                "specific_conductivity": {"min": "34.0 MS/m", "max": "54.0 MS/m"}
+            },
+            "common": {
+                "conductor_cross_section": {"min": "0", "max": "5000 mm²"},
+                "dc_resistance": {"min": "0", "max": "0.50 Ohm/km"},
+                "mass_per_unit_length": {"min": "0", "max": "15529 kg/km"},
+                "emissivity": {"min": "0.4", "max": "2"},
+                "absorptivity": {"min": "0.4", "max": "2"},
+                "effective_radial_thermal_conductivity": {"min": "1 W/m·K", "max": "3600 W/m·K"},
+                "skin_effect_factor": {"min": "1.00", "max": "15.45"},
+                "wetted_factor": {"min": "0.6", "max": "12.75"},
+                "impinging_factor": {"min": "0.9", "max": "16.5"},
+                "recovery_factor": {"min": "0.7", "max": "14.25"},
+                "rough_surface_correction": {"min": "1.0", "max": "16.5"},
+                "nusselt_base": {"min": "0.003", "max": "180"},
+                "nusselt_exp.": {"min": "0.3", "max": "13.5"}
+            }
+        }
